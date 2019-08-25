@@ -1,21 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cead7fed-e119-41fa-9f02-d499599f7877" name="Default Changelist" comment="" />
+    <list default="true" id="cead7fed-e119-41fa-9f02-d499599f7877" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Core/Domain/DailyRoute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Core/Domain/Driver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Core/Domain/Node.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Core/Domain/Passenger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Core/Domain/PassengerNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Core/Domain/Route.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Core/Domain/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Core/Domain/Vehicle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Core/Repositories/IUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Infrastructure/DTO/UserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Repositories/InMemoryUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Services/IUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Passenger/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Passenger/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Passenger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Passenger/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.RazorAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.RazorAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.RazorAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Core/bin/Debug/netcoreapp2.2/Passenger.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/bin/Debug/netcoreapp2.2/Passenger.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Core/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Passenger.Core/Domain/Passenger.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <marker date="1566744616476" expanded="true" signature="46:239" ph="{...}" />
+                <marker date="1566744616476" expanded="true" signature="75:237" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Passenger.Core/Repositories/IUserRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <folding>
+                <marker date="1566744839542" expanded="true" signature="6:76" ph="..." />
+                <marker date="1566744839542" expanded="true" signature="115:363" ph="{...}" />
+                <marker date="1566744839542" expanded="true" signature="154:361" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Passenger.Infrastructure/Repositories/InMemoryUserRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <marker date="1566747073198" expanded="false" signature="6:130" ph="..." />
+                <marker date="1566747073198" expanded="true" signature="179:1076" ph="{...}" />
+                <marker date="1566747073198" expanded="true" signature="239:1074" ph="{...}" />
+                <marker date="1566747073198" expanded="true" signature="315:529" ph="{...}" />
+                <marker date="1566747073198" expanded="true" signature="824:874" ph="{...}" />
+                <marker date="1566747073198" expanded="true" signature="913:946" ph="{...}" />
+                <marker date="1566747073198" expanded="true" signature="983:1068" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Passenger.Api/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="30" column="74" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="74" />
+              <folding>
+                <marker date="1566747073192" expanded="true" signature="6:523" ph="..." />
+                <marker date="1566747073192" expanded="true" signature="548:1794" ph="{...}" />
+                <marker date="1566747073192" expanded="true" signature="575:1792" ph="{...}" />
+                <marker date="1566747073192" expanded="true" signature="634:697" ph="{...}" />
+                <marker date="1566747073192" expanded="true" signature="920:1178" ph="{...}" />
+                <marker date="1566747073192" expanded="true" signature="1366:1786" ph="{...}" />
+                <marker date="1566747073192" expanded="true" signature="1413:1490" ph="{...}" />
+                <marker date="1566747073192" expanded="true" signature="1507:1710" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Passenger.Infrastructure/Services/IUserService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding>
+                <marker date="1566746573955" expanded="true" signature="80:254" ph="{...}" />
+                <marker date="1566746573955" expanded="true" signature="116:252" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Passenger.Infrastructure/DTO/UserDto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <folding>
+                <marker date="1566746573958" expanded="true" signature="53:264" ph="{...}" />
+                <marker date="1566746573958" expanded="true" signature="80:262" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Passenger.Infrastructure/Services/UserService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+              <folding>
+                <marker date="1566746573950" expanded="true" signature="6:113" ph="..." />
+                <marker date="1566746573950" expanded="true" signature="158:1183" ph="{...}" />
+                <marker date="1566746573950" expanded="true" signature="204:1181" ph="{...}" />
+                <marker date="1566746573950" expanded="true" signature="328:394" ph="{...}" />
+                <marker date="1566746573950" expanded="true" signature="436:729" ph="{...}" />
+                <marker date="1566746573950" expanded="true" signature="554:718" ph="{...}" />
+                <marker date="1566746573950" expanded="true" signature="807:1175" ph="{...}" />
+                <marker date="1566746573950" expanded="true" signature="898:1010" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+              <folding>
+                <marker date="1566747073195" expanded="true" signature="6:205" ph="..." />
+                <marker date="1566747073195" expanded="true" signature="242:654" ph="{...}" />
+                <marker date="1566747073195" expanded="true" signature="342:652" ph="{...}" />
+                <marker date="1566747073195" expanded="true" signature="458:518" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Passenger.Api/Controllers/ValuesController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding>
+                <marker date="1566741898956" expanded="false" signature="6:128" ph="..." />
+                <marker date="1566741898956" expanded="true" signature="165:973" ph="{...}" />
+                <marker date="1566741898956" expanded="true" signature="270:971" ph="{...}" />
+                <marker date="1566741898956" expanded="true" signature="375:449" ph="{...}" />
+                <marker date="1566741898956" expanded="true" signature="552:600" ph="{...}" />
+                <marker date="1566741898956" expanded="true" signature="697:717" ph="{...}" />
+                <marker date="1566741898956" expanded="true" signature="829:849" ph="{...}" />
+                <marker date="1566741898956" expanded="true" signature="945:965" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Passenger.Core/Domain/User.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+              <folding>
+                <marker date="1566745738981" expanded="true" signature="46:839" ph="{...}" />
+                <marker date="1566745738981" expanded="true" signature="70:837" ph="{...}" />
+                <marker date="1566745738981" expanded="true" signature="475:508" ph="{...}" />
+                <marker date="1566745738981" expanded="true" signature="590:821" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Passenger.Api/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/PassengerNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Passenger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Repositories/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Api/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Api/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Driver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Repositories/InMemoryUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Services/IUserService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/96EE8D1B-889D-4F26-B7BD-4CC3F07CA395/b8/c8a61f7e/WebHost.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Vehicle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Route.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/DTO/UserDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Api/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Node.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/221FA654-76FD-4A6A-A7BE-C2CD9B5A08D9/a1/b4f69383/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/DailyRoute.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -23,7 +243,23 @@
         <option value="$PROJECT_DIR$/Passenger.Infrastructure/Class1.cs" />
         <option value="$PROJECT_DIR$/Passenger.Tests.EndToEnd/Passenger.Tests.EndToEnd.csproj" />
         <option value="$PROJECT_DIR$/Passenger.Tests/Passenger.Tests.csproj" />
+        <option value="$PROJECT_DIR$/Passenger.Core/Domain/Vehicle.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Core/Domain/Route.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Core/Domain/DailyRoute.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Core/Domain/PassengerNode.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Core/Domain/Driver.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Core/Domain/Node.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Core/Domain/Class1.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Core/Domain/Passenger.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Core/Repositories/IUserRepository.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Infrastructure/Repositories/UserRepository.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Core/Domain/User.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Infrastructure/DTO/UserDto.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Infrastructure/Services/IUserService.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Infrastructure/Services/UserService.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/Passenger.Api/Startup.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Infrastructure/Repositories/InMemoryUserRepository.cs" />
       </list>
     </option>
   </component>
@@ -37,6 +273,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -44,12 +281,56 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Passenger" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Passenger" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Passenger.Api" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Passenger" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Passenger.Api" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Passenger" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Passenger.Core" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Passenger" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Passenger.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Passenger" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Passenger.Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Passenger" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Passenger.Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DTO" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Passenger" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Passenger.Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repositories" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Passenger" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Passenger.Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
     </panes>
   </component>
@@ -117,11 +398,12 @@
       <updated>1566417788325</updated>
       <workItem from="1566417789566" duration="1432000" />
       <workItem from="1566739890348" duration="685000" />
+      <workItem from="1566742054597" duration="5410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2161000" />
+    <option name="totallyTimeSpent" value="7571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -134,15 +416,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -153,7 +436,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.49928468" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49928468" weight="0.31084338" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="15" weight="0.32891566" />
       <window_info anchor="bottom" id="REST Client" order="16" />
@@ -171,6 +454,32 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -182,20 +491,8 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Passenger.Tests.EndToEnd/Passenger.Tests.EndToEnd.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Passenger.Tests/Passenger.Tests.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Tests.EndToEnd/Passenger.Tests.EndToEnd.csproj" />
+    <entry file="file://$PROJECT_DIR$/Passenger.Tests/Passenger.Tests.csproj" />
     <entry file="file://$PROJECT_DIR$/Passenger.Tests.EndToEnd/UnitTest1.cs" />
     <entry file="file://$PROJECT_DIR$/Passenger.Tests/UnitTest1.cs" />
     <entry file="file://$PROJECT_DIR$/Passenger.Infrastructure/Class1.cs" />
@@ -207,19 +504,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Passenger.Api/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <marker date="1566417942970" expanded="false" signature="6:255" ph="..." />
-            <marker date="1566417942970" expanded="true" signature="280:607" ph="{...}" />
-            <marker date="1566417942970" expanded="true" signature="307:605" ph="{...}" />
-            <marker date="1566417942970" expanded="true" signature="360:434" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Api/Program.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/221FA654-76FD-4A6A-A7BE-C2CD9B5A08D9/a1/b4f69383/IConfiguration.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -227,19 +512,208 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Core/Domain/PassengerNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <marker date="1566744483501" expanded="true" signature="31:195" ph="{...}" />
+            <marker date="1566744483501" expanded="true" signature="64:193" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Core/Domain/Route.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <marker date="1566744055875" expanded="true" signature="46:247" ph="{...}" />
+            <marker date="1566744055875" expanded="true" signature="71:245" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Core/Domain/Vehicle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <marker date="1566743833588" expanded="true" signature="31:223" ph="{...}" />
+            <marker date="1566743833588" expanded="true" signature="58:221" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Core/Domain/DailyRoute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <marker date="1566744483504" expanded="true" signature="6:47" ph="..." />
+            <marker date="1566744483504" expanded="true" signature="80:317" ph="{...}" />
+            <marker date="1566744483504" expanded="true" signature="110:310" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Core/Domain/Node.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <marker date="1566744483495" expanded="true" signature="46:249" ph="{...}" />
+            <marker date="1566744483495" expanded="true" signature="70:247" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Core/Domain/Driver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <marker date="1566744483498" expanded="true" signature="6:47" ph="..." />
+            <marker date="1566744483498" expanded="true" signature="80:421" ph="{...}" />
+            <marker date="1566744483498" expanded="true" signature="106:419" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Core/Domain/Passenger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1566744616476" expanded="true" signature="46:239" ph="{...}" />
+            <marker date="1566744616476" expanded="true" signature="75:237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Core/Repositories/IUserRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <marker date="1566744839542" expanded="true" signature="6:76" ph="..." />
+            <marker date="1566744839542" expanded="true" signature="115:363" ph="{...}" />
+            <marker date="1566744839542" expanded="true" signature="154:361" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Core/Domain/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <marker date="1566745738981" expanded="true" signature="46:839" ph="{...}" />
+            <marker date="1566745738981" expanded="true" signature="70:837" ph="{...}" />
+            <marker date="1566745738981" expanded="true" signature="475:508" ph="{...}" />
+            <marker date="1566745738981" expanded="true" signature="590:821" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Infrastructure/DTO/UserDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <marker date="1566746573958" expanded="true" signature="53:264" ph="{...}" />
+            <marker date="1566746573958" expanded="true" signature="80:262" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Infrastructure/Services/IUserService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <marker date="1566746573955" expanded="true" signature="80:254" ph="{...}" />
+            <marker date="1566746573955" expanded="true" signature="116:252" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Infrastructure/Services/UserService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <marker date="1566746573950" expanded="true" signature="6:113" ph="..." />
+            <marker date="1566746573950" expanded="true" signature="158:1183" ph="{...}" />
+            <marker date="1566746573950" expanded="true" signature="204:1181" ph="{...}" />
+            <marker date="1566746573950" expanded="true" signature="328:394" ph="{...}" />
+            <marker date="1566746573950" expanded="true" signature="436:729" ph="{...}" />
+            <marker date="1566746573950" expanded="true" signature="554:718" ph="{...}" />
+            <marker date="1566746573950" expanded="true" signature="807:1175" ph="{...}" />
+            <marker date="1566746573950" expanded="true" signature="898:1010" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Api/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <marker date="1566741898956" expanded="false" signature="6:128" ph="..." />
+            <marker date="1566741898956" expanded="true" signature="165:973" ph="{...}" />
+            <marker date="1566741898956" expanded="true" signature="270:971" ph="{...}" />
+            <marker date="1566741898956" expanded="true" signature="375:449" ph="{...}" />
+            <marker date="1566741898956" expanded="true" signature="552:600" ph="{...}" />
+            <marker date="1566741898956" expanded="true" signature="697:717" ph="{...}" />
+            <marker date="1566741898956" expanded="true" signature="829:849" ph="{...}" />
+            <marker date="1566741898956" expanded="true" signature="945:965" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <marker date="1566747073195" expanded="true" signature="6:205" ph="..." />
+            <marker date="1566747073195" expanded="true" signature="242:654" ph="{...}" />
+            <marker date="1566747073195" expanded="true" signature="342:652" ph="{...}" />
+            <marker date="1566747073195" expanded="true" signature="458:518" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Passenger.Api/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state relative-caret-position="272">
+          <caret line="30" column="74" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="74" />
           <folding>
-            <marker date="1566417942974" expanded="false" signature="6:402" ph="..." />
-            <marker date="1566417942974" expanded="true" signature="427:1524" ph="{...}" />
-            <marker date="1566417942974" expanded="true" signature="454:1522" ph="{...}" />
-            <marker date="1566417942974" expanded="true" signature="513:576" ph="{...}" />
-            <marker date="1566417942974" expanded="true" signature="799:908" ph="{...}" />
-            <marker date="1566417942974" expanded="true" signature="1096:1516" ph="{...}" />
-            <marker date="1566417942974" expanded="true" signature="1143:1220" ph="{...}" />
-            <marker date="1566417942974" expanded="true" signature="1237:1440" ph="{...}" />
+            <marker date="1566747073192" expanded="true" signature="6:523" ph="..." />
+            <marker date="1566747073192" expanded="true" signature="548:1794" ph="{...}" />
+            <marker date="1566747073192" expanded="true" signature="575:1792" ph="{...}" />
+            <marker date="1566747073192" expanded="true" signature="634:697" ph="{...}" />
+            <marker date="1566747073192" expanded="true" signature="920:1178" ph="{...}" />
+            <marker date="1566747073192" expanded="true" signature="1366:1786" ph="{...}" />
+            <marker date="1566747073192" expanded="true" signature="1413:1490" ph="{...}" />
+            <marker date="1566747073192" expanded="true" signature="1507:1710" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Passenger.Infrastructure/Repositories/InMemoryUserRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1566747073198" expanded="false" signature="6:130" ph="..." />
+            <marker date="1566747073198" expanded="true" signature="179:1076" ph="{...}" />
+            <marker date="1566747073198" expanded="true" signature="239:1074" ph="{...}" />
+            <marker date="1566747073198" expanded="true" signature="315:529" ph="{...}" />
+            <marker date="1566747073198" expanded="true" signature="824:874" ph="{...}" />
+            <marker date="1566747073198" expanded="true" signature="913:946" ph="{...}" />
+            <marker date="1566747073198" expanded="true" signature="983:1068" ph="{...}" />
           </folding>
         </state>
       </provider>

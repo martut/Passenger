@@ -15,6 +15,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="UsersController.cs" t="Include" />
           <e p="ValuesController.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -33,6 +34,16 @@
       </e>
       <e p="Passenger.Core" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Domain" t="Include">
+          <e p="DailyRoute.cs" t="Include" />
+          <e p="Driver.cs" t="Include" />
+          <e p="Node.cs" t="Include" />
+          <e p="Passenger.cs" t="Include" />
+          <e p="PassengerNode.cs" t="Include" />
+          <e p="Route.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+          <e p="Vehicle.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -41,9 +52,15 @@
           </e>
         </e>
         <e p="Passenger.Core.csproj" t="IncludeRecursive" />
+        <e p="Repositories" t="Include">
+          <e p="IUserRepository.cs" t="Include" />
+        </e>
       </e>
       <e p="Passenger.Infrastructure" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="DTO" t="Include">
+          <e p="UserDto.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -52,6 +69,13 @@
           </e>
         </e>
         <e p="Passenger.Infrastructure.csproj" t="IncludeRecursive" />
+        <e p="Repositories" t="Include">
+          <e p="InMemoryUserRepository.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="IUserService.cs" t="Include" />
+          <e p="UserService.cs" t="Include" />
+        </e>
       </e>
       <e p="Passenger.sln" t="IncludeFlat" />
       <e p="Passenger.Tests" t="IncludeRecursive">
