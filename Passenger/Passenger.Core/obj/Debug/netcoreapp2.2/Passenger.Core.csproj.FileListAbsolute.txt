@@ -1,0 +1,9 @@
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Core/bin/Debug/netcoreapp2.2/Passenger.Core.deps.json
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Core/bin/Debug/netcoreapp2.2/Passenger.Core.dll
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Core/bin/Debug/netcoreapp2.2/Passenger.Core.pdb
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.csprojAssemblyReference.cache
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.csproj.CoreCompileInputs.cache
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.AssemblyInfoInputs.cache
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.AssemblyInfo.cs
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.dll
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.pdb
