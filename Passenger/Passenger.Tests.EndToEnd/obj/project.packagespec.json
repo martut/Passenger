@@ -17,7 +17,14 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Api/Passenger.Api.csproj": {
+            "projectPath": "/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Api/Passenger.Api.csproj"
+          },
+          "/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Infrastructure/Passenger.Infrastructure.csproj": {
+            "projectPath": "/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Infrastructure/Passenger.Infrastructure.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -33,6 +40,10 @@
           "target": "Package",
           "version": "[5.7.0, )"
         },
+        "Microsoft.AspNetCore.TestHost": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
         "Microsoft.NET.Test.Sdk": {
           "target": "Package",
           "version": "[15.9.0, )"
@@ -47,13 +58,17 @@
           "target": "Package",
           "version": "[4.12.0, )"
         },
-        "NUnit3TestAdapter": {
+        "Newtonsoft.Json": {
           "target": "Package",
-          "version": "[3.11.0, )"
+          "version": "[12.0.2, )"
         },
-        "nunit": {
+        "xunit": {
           "target": "Package",
-          "version": "[3.11.0, )"
+          "version": "[2.4.1, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.1, )"
         }
       },
       "imports": [

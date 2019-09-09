@@ -1,6 +1,3 @@
-/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.dll
-/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.pdb
-/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/bin/Debug/netcoreapp2.2/nunit.engine.netstandard.dll
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.deps.json
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.runtimeconfig.json
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.runtimeconfig.dev.json
@@ -17,3 +14,6 @@
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Core.pdb
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.csproj.CopyComplete
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/bin/Debug/netcoreapp2.2/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/bin/Debug/netcoreapp2.2/xunit.runner.reporters.netcoreapp10.dll
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/bin/Debug/netcoreapp2.2/xunit.runner.utility.netcoreapp10.dll

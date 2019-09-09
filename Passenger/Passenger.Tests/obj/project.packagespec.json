@@ -54,13 +54,13 @@
           "target": "Package",
           "version": "[4.12.0, )"
         },
-        "NUnit3TestAdapter": {
+        "xunit": {
           "target": "Package",
-          "version": "[3.11.0, )"
+          "version": "[2.4.1, )"
         },
-        "nunit": {
+        "xunit.runner.visualstudio": {
           "target": "Package",
-          "version": "[3.11.0, )"
+          "version": "[2.4.1, )"
         }
       },
       "imports": [
