@@ -1,95 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cead7fed-e119-41fa-9f02-d499599f7877" name="Default Changelist" comment="Async all">
-      <change afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/Controllers/UsersControllerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Passenger.Tests/Services/UserServiceTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Passenger/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Passenger/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="cead7fed-e119-41fa-9f02-d499599f7877" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Passenger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Passenger/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Passenger/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Passenger/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Passenger.Api.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Passenger.Api.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Passenger.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Passenger.Api.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Core/Domain/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/Domain/Node.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Core/Domain/Vehicle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/Domain/Vehicle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Core/bin/Debug/netcoreapp2.2/Passenger.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/bin/Debug/netcoreapp2.2/Passenger.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Core/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/Passenger.Core.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/Passenger.Core.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/Passenger.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/Passenger.Core.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/Passenger.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Passenger.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/Repositories/InMemoryDriverRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Repositories/InMemoryDriverRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/Services/DriverService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Services/DriverService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Passenger.Infrastructure.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Passenger.Infrastructure.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Passenger.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Passenger.Infrastructure.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/Passenger.Tests.EndToEnd.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/Passenger.Tests.EndToEnd.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/nunit.engine.netstandard.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Passenger.Tests.EndToEnd.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Passenger.Tests.EndToEnd.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Passenger.Tests.EndToEnd.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Passenger.Tests.EndToEnd.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Passenger.Tests.EndToEnd.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Passenger.Tests.EndToEnd.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/Passenger.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/Passenger.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Tests/Services/UserServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/Services/UserServiceTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/nunit.engine.netstandard.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Passenger.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Passenger.Tests.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Passenger.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Passenger.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Passenger.Tests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Passenger.Tests.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/project.packagespec.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,36 +54,36 @@
         <entry file="file://$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
-              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding>
-                <marker date="1567940963331" expanded="true" signature="6:252" ph="..." />
-                <marker date="1567940963331" expanded="true" signature="289:1150" ph="{...}" />
-                <marker date="1567940963331" expanded="true" signature="389:1148" ph="{...}" />
-                <marker date="1567940963331" expanded="true" signature="505:565" ph="{...}" />
-                <marker date="1567940963331" expanded="true" signature="655:858" ph="{...}" />
-                <marker date="1567940963331" expanded="true" signature="755:818" ph="{...}" />
-                <marker date="1567940963331" expanded="true" signature="959:1142" ph="{...}" />
+                <marker date="1568054870756" expanded="true" signature="6:149" ph="..." />
+                <marker date="1568054870756" expanded="true" signature="186:1005" ph="{...}" />
+                <marker date="1568054870756" expanded="true" signature="286:1003" ph="{...}" />
+                <marker date="1568054870756" expanded="true" signature="402:462" ph="{...}" />
+                <marker date="1568054870756" expanded="true" signature="552:710" ph="{...}" />
+                <marker date="1568054870756" expanded="true" signature="651:670" ph="{...}" />
+                <marker date="1568054870756" expanded="true" signature="812:997" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Passenger.Tests.EndToEnd/Controllers/UsersControllerTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="60" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
+            <state relative-caret-position="-61">
+              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
               <folding>
-                <marker date="1567966509157" expanded="true" signature="6:363" ph="..." />
-                <marker date="1567966509157" expanded="true" signature="411:2655" ph="{...}" />
-                <marker date="1567966509157" expanded="true" signature="451:2653" ph="{...}" />
-                <marker date="1567966509157" expanded="true" signature="595:760" ph="{...}" />
-                <marker date="1567966509157" expanded="true" signature="840:1012" ph="{...}" />
-                <marker date="1567966509157" expanded="true" signature="1106:1323" ph="{...}" />
-                <marker date="1567966509157" expanded="true" signature="1417:2088" ph="{...}" />
-                <marker date="1567966509157" expanded="true" signature="1523:1640" ph="{...}" />
-                <marker date="1567966509157" expanded="true" signature="2152:2406" ph="{...}" />
-                <marker date="1567966509157" expanded="true" signature="2468:2638" ph="{...}" />
+                <marker date="1568054870754" expanded="true" signature="6:326" ph="..." />
+                <marker date="1568054870754" expanded="true" signature="374:2539" ph="{...}" />
+                <marker date="1568054870754" expanded="true" signature="414:2537" ph="{...}" />
+                <marker date="1568054870754" expanded="true" signature="458:623" ph="{...}" />
+                <marker date="1568054870754" expanded="true" signature="778:1020" ph="{...}" />
+                <marker date="1568054870754" expanded="true" signature="1082:1240" ph="{...}" />
+                <marker date="1568054870754" expanded="true" signature="1326:1543" ph="{...}" />
+                <marker date="1568054870754" expanded="true" signature="1629:2283" ph="{...}" />
+                <marker date="1568054870754" expanded="true" signature="1735:1852" ph="{...}" />
+                <marker date="1568054870754" expanded="true" signature="2363:2531" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -148,13 +98,13 @@
         <entry file="file://$PROJECT_DIR$/Passenger.Infrastructure/Repositories/InMemoryDriverRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding>
-                <marker date="1567878962348" expanded="true" signature="6:160" ph="..." />
-                <marker date="1567878962348" expanded="true" signature="209:877" ph="{...}" />
-                <marker date="1567878962348" expanded="true" signature="273:875" ph="{...}" />
-                <marker date="1567878962348" expanded="true" signature="656:748" ph="{...}" />
-                <marker date="1567878962348" expanded="true" signature="802:860" ph="{...}" />
+                <marker date="1568054870750" expanded="true" signature="6:160" ph="..." />
+                <marker date="1568054870750" expanded="true" signature="209:926" ph="{...}" />
+                <marker date="1568054870750" expanded="true" signature="273:924" ph="{...}" />
+                <marker date="1568054870750" expanded="true" signature="714:806" ph="{...}" />
+                <marker date="1568054870750" expanded="true" signature="860:918" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -211,37 +161,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Passenger.Core/Domain/Node.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="-106">
+              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
               <folding>
-                <marker date="1567878962351" expanded="true" signature="6:51" ph="..." />
-                <marker date="1567878962351" expanded="true" signature="84:1762" ph="{...}" />
-                <marker date="1567878962351" expanded="true" signature="108:1760" ph="{...}" />
-                <marker date="1567878962351" expanded="true" signature="479:512" ph="{...}" />
-                <marker date="1567878962351" expanded="true" signature="587:711" ph="{...}" />
-                <marker date="1567878962351" expanded="true" signature="762:1083" ph="{...}" />
-                <marker date="1567878962351" expanded="true" signature="812:907" ph="{...}" />
-                <marker date="1567878962351" expanded="true" signature="946:998" ph="{...}" />
-                <marker date="1567878962351" expanded="true" signature="1136:1463" ph="{...}" />
-                <marker date="1567878962351" expanded="true" signature="1187:1283" ph="{...}" />
-                <marker date="1567878962351" expanded="true" signature="1324:1376" ph="{...}" />
-                <marker date="1567878962351" expanded="true" signature="1511:1736" ph="{...}" />
-                <marker date="1567878962351" expanded="true" signature="1566:1653" ph="{...}" />
+                <marker date="1568054870764" expanded="true" signature="6:51" ph="..." />
+                <marker date="1568054870764" expanded="true" signature="84:1512" ph="{...}" />
+                <marker date="1568054870764" expanded="true" signature="108:1510" ph="{...}" />
+                <marker date="1568054870764" expanded="true" signature="750:983" ph="{...}" />
+                <marker date="1568054870764" expanded="true" signature="800:851" ph="{...}" />
+                <marker date="1568054870764" expanded="true" signature="890:898" ph="{...}" />
+                <marker date="1568054870764" expanded="true" signature="1036:1275" ph="{...}" />
+                <marker date="1568054870764" expanded="true" signature="1087:1139" ph="{...}" />
+                <marker date="1568054870764" expanded="true" signature="1180:1188" ph="{...}" />
+                <marker date="1568054870764" expanded="true" signature="1323:1504" ph="{...}" />
+                <marker date="1568054870764" expanded="true" signature="1378:1421" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Passenger.Tests/Services/UserServiceTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="704">
+              <caret line="50" column="75" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
               <folding>
-                <marker date="1567944465345" expanded="true" signature="6:200" ph="..." />
-                <marker date="1567944465345" expanded="true" signature="236:802" ph="{...}" />
-                <marker date="1567944465345" expanded="true" signature="272:800" ph="{...}" />
-                <marker date="1567944465345" expanded="true" signature="374:794" ph="{...}" />
+                <marker date="1568056289274" expanded="true" signature="6:176" ph="..." />
+                <marker date="1568056289274" expanded="true" signature="212:2106" ph="{...}" />
+                <marker date="1568056289274" expanded="true" signature="248:2104" ph="{...}" />
+                <marker date="1568056289274" expanded="true" signature="350:748" ph="{...}" />
+                <marker date="1568056289274" expanded="true" signature="874:1448" ph="{...}" />
+                <marker date="1568056289274" expanded="true" signature="1591:2097" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -348,10 +298,10 @@
         <option value="$PROJECT_DIR$/Passenger.Infrastructure/Services/DriverService.cs" />
         <option value="$PROJECT_DIR$/Passenger.Core/Domain/Node.cs" />
         <option value="$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs" />
-        <option value="$PROJECT_DIR$/Passenger.Tests/Services/UserServiceTests.cs" />
         <option value="$PROJECT_DIR$/Passenger.Core/Domain/Vehicle.cs" />
         <option value="$PROJECT_DIR$/Passenger.Tests.EndToEnd/Passenger.Tests.EndToEnd.csproj" />
         <option value="$PROJECT_DIR$/Passenger.Tests.EndToEnd/Controllers/UsersControllerTests.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Tests/Services/UserServiceTests.cs" />
       </list>
     </option>
   </component>
@@ -931,11 +881,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567877833025</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Few tests added">
+      <created>1568054872354</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568054872354</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32894000" />
+    <option name="totallyTimeSpent" value="35345000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -947,9 +904,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.2639485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.2639485" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -965,11 +922,11 @@
       <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.6123033" weight="0.32891566" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4985694" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.49570817" visible="true" weight="0.31084338" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49570817" weight="0.31084338" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50143063" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Build" order="15" sideWeight="0.49713877" weight="0.32891566" />
       <window_info anchor="bottom" id="REST Client" order="16" sideWeight="0.49499285" weight="0.46024096" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1030,6 +987,17 @@
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
               <option name="COLUMN_ORDER">
                 <list>
                   <option value="0" />
@@ -1047,7 +1015,23 @@
       <map>
         <entry key="Branch">
           <value>
-            <list />
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/develop" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
         <entry key="User">
@@ -1059,11 +1043,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="First Models, UserService, UserController" />
     <MESSAGE value="domain, services and controllers." />
     <MESSAGE value="Validation and Driver service added" />
     <MESSAGE value="Async all" />
-    <option name="LAST_COMMIT_MESSAGE" value="Async all" />
+    <MESSAGE value="Few tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Few tests added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1074,13 +1060,13 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs</url>
-          <line>38</line>
+          <line>31</line>
           <properties documentPath="$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs" initialLine="30">
             <startOffsets>
-              <option value="968" />
+              <option value="821" />
             </startOffsets>
             <endOffsets>
-              <option value="969" />
+              <option value="822" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
@@ -1437,13 +1423,13 @@
     <entry file="file://$PROJECT_DIR$/Passenger.Infrastructure/Repositories/InMemoryDriverRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
-            <marker date="1567878962348" expanded="true" signature="6:160" ph="..." />
-            <marker date="1567878962348" expanded="true" signature="209:877" ph="{...}" />
-            <marker date="1567878962348" expanded="true" signature="273:875" ph="{...}" />
-            <marker date="1567878962348" expanded="true" signature="656:748" ph="{...}" />
-            <marker date="1567878962348" expanded="true" signature="802:860" ph="{...}" />
+            <marker date="1568054870750" expanded="true" signature="6:160" ph="..." />
+            <marker date="1568054870750" expanded="true" signature="209:926" ph="{...}" />
+            <marker date="1568054870750" expanded="true" signature="273:924" ph="{...}" />
+            <marker date="1568054870750" expanded="true" signature="714:806" ph="{...}" />
+            <marker date="1568054870750" expanded="true" signature="860:918" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1500,22 +1486,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Passenger.Core/Domain/Node.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        <state relative-caret-position="-106">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
           <folding>
-            <marker date="1567878962351" expanded="true" signature="6:51" ph="..." />
-            <marker date="1567878962351" expanded="true" signature="84:1762" ph="{...}" />
-            <marker date="1567878962351" expanded="true" signature="108:1760" ph="{...}" />
-            <marker date="1567878962351" expanded="true" signature="479:512" ph="{...}" />
-            <marker date="1567878962351" expanded="true" signature="587:711" ph="{...}" />
-            <marker date="1567878962351" expanded="true" signature="762:1083" ph="{...}" />
-            <marker date="1567878962351" expanded="true" signature="812:907" ph="{...}" />
-            <marker date="1567878962351" expanded="true" signature="946:998" ph="{...}" />
-            <marker date="1567878962351" expanded="true" signature="1136:1463" ph="{...}" />
-            <marker date="1567878962351" expanded="true" signature="1187:1283" ph="{...}" />
-            <marker date="1567878962351" expanded="true" signature="1324:1376" ph="{...}" />
-            <marker date="1567878962351" expanded="true" signature="1511:1736" ph="{...}" />
-            <marker date="1567878962351" expanded="true" signature="1566:1653" ph="{...}" />
+            <marker date="1568054870764" expanded="true" signature="6:51" ph="..." />
+            <marker date="1568054870764" expanded="true" signature="84:1512" ph="{...}" />
+            <marker date="1568054870764" expanded="true" signature="108:1510" ph="{...}" />
+            <marker date="1568054870764" expanded="true" signature="750:983" ph="{...}" />
+            <marker date="1568054870764" expanded="true" signature="800:851" ph="{...}" />
+            <marker date="1568054870764" expanded="true" signature="890:898" ph="{...}" />
+            <marker date="1568054870764" expanded="true" signature="1036:1275" ph="{...}" />
+            <marker date="1568054870764" expanded="true" signature="1087:1139" ph="{...}" />
+            <marker date="1568054870764" expanded="true" signature="1180:1188" ph="{...}" />
+            <marker date="1568054870764" expanded="true" signature="1323:1504" ph="{...}" />
+            <marker date="1568054870764" expanded="true" signature="1378:1421" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1525,20 +1509,20 @@
         <state relative-caret-position="254">
           <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
           <folding>
-            <marker date="1567949836789" expanded="true" signature="46:1719" ph="{...}" />
-            <marker date="1567949836789" expanded="true" signature="73:1717" ph="{...}" />
-            <marker date="1567949836789" expanded="true" signature="261:294" ph="{...}" />
-            <marker date="1567949836789" expanded="true" signature="359:464" ph="{...}" />
-            <marker date="1567949836789" expanded="true" signature="509:788" ph="{...}" />
-            <marker date="1567949836789" expanded="true" signature="569:665" ph="{...}" />
-            <marker date="1567949836789" expanded="true" signature="698:750" ph="{...}" />
-            <marker date="1567949836789" expanded="true" signature="831:1117" ph="{...}" />
-            <marker date="1567949836789" expanded="true" signature="890:985" ph="{...}" />
-            <marker date="1567949836789" expanded="true" signature="1016:1068" ph="{...}" />
-            <marker date="1567949836789" expanded="true" signature="1159:1587" ph="{...}" />
-            <marker date="1567949836789" expanded="true" signature="1196:1296" ph="{...}" />
-            <marker date="1567949836789" expanded="true" signature="1324:1432" ph="{...}" />
-            <marker date="1567949836789" expanded="true" signature="1465:1535" ph="{...}" />
+            <marker date="1568054870720" expanded="true" signature="46:1435" ph="{...}" />
+            <marker date="1568054870720" expanded="true" signature="73:1433" ph="{...}" />
+            <marker date="1568054870720" expanded="true" signature="107:127" ph="{...}" />
+            <marker date="1568054870720" expanded="true" signature="192:297" ph="{...}" />
+            <marker date="1568054870720" expanded="true" signature="495:685" ph="{...}" />
+            <marker date="1568054870720" expanded="true" signature="555:606" ph="{...}" />
+            <marker date="1568054870720" expanded="true" signature="639:647" ph="{...}" />
+            <marker date="1568054870720" expanded="true" signature="728:913" ph="{...}" />
+            <marker date="1568054870720" expanded="true" signature="787:838" ph="{...}" />
+            <marker date="1568054870720" expanded="true" signature="869:877" ph="{...}" />
+            <marker date="1568054870720" expanded="true" signature="955:1279" ph="{...}" />
+            <marker date="1568054870720" expanded="true" signature="992:1047" ph="{...}" />
+            <marker date="1568054870720" expanded="true" signature="1075:1138" ph="{...}" />
+            <marker date="1568054870720" expanded="true" signature="1171:1241" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1546,15 +1530,15 @@
     <entry file="file://$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding>
-            <marker date="1567940963331" expanded="true" signature="6:252" ph="..." />
-            <marker date="1567940963331" expanded="true" signature="289:1150" ph="{...}" />
-            <marker date="1567940963331" expanded="true" signature="389:1148" ph="{...}" />
-            <marker date="1567940963331" expanded="true" signature="505:565" ph="{...}" />
-            <marker date="1567940963331" expanded="true" signature="655:858" ph="{...}" />
-            <marker date="1567940963331" expanded="true" signature="755:818" ph="{...}" />
-            <marker date="1567940963331" expanded="true" signature="959:1142" ph="{...}" />
+            <marker date="1568054870756" expanded="true" signature="6:149" ph="..." />
+            <marker date="1568054870756" expanded="true" signature="186:1005" ph="{...}" />
+            <marker date="1568054870756" expanded="true" signature="286:1003" ph="{...}" />
+            <marker date="1568054870756" expanded="true" signature="402:462" ph="{...}" />
+            <marker date="1568054870756" expanded="true" signature="552:710" ph="{...}" />
+            <marker date="1568054870756" expanded="true" signature="651:670" ph="{...}" />
+            <marker date="1568054870756" expanded="true" signature="812:997" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1562,34 +1546,36 @@
     <entry file="file://$PROJECT_DIR$/Passenger.Tests.EndToEnd/Passenger.Tests.EndToEnd.csproj">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Passenger.Tests/Services/UserServiceTests.cs">
+    <entry file="file://$PROJECT_DIR$/Passenger.Tests.EndToEnd/Controllers/UsersControllerTests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="-61">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding>
-            <marker date="1567944465345" expanded="true" signature="6:200" ph="..." />
-            <marker date="1567944465345" expanded="true" signature="236:802" ph="{...}" />
-            <marker date="1567944465345" expanded="true" signature="272:800" ph="{...}" />
-            <marker date="1567944465345" expanded="true" signature="374:794" ph="{...}" />
+            <marker date="1568054870754" expanded="true" signature="6:326" ph="..." />
+            <marker date="1568054870754" expanded="true" signature="374:2539" ph="{...}" />
+            <marker date="1568054870754" expanded="true" signature="414:2537" ph="{...}" />
+            <marker date="1568054870754" expanded="true" signature="458:623" ph="{...}" />
+            <marker date="1568054870754" expanded="true" signature="778:1020" ph="{...}" />
+            <marker date="1568054870754" expanded="true" signature="1082:1240" ph="{...}" />
+            <marker date="1568054870754" expanded="true" signature="1326:1543" ph="{...}" />
+            <marker date="1568054870754" expanded="true" signature="1629:2283" ph="{...}" />
+            <marker date="1568054870754" expanded="true" signature="1735:1852" ph="{...}" />
+            <marker date="1568054870754" expanded="true" signature="2363:2531" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Passenger.Tests.EndToEnd/Controllers/UsersControllerTests.cs">
+    <entry file="file://$PROJECT_DIR$/Passenger.Tests/Services/UserServiceTests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="60" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
+        <state relative-caret-position="704">
+          <caret line="50" column="75" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
           <folding>
-            <marker date="1567966509157" expanded="true" signature="6:363" ph="..." />
-            <marker date="1567966509157" expanded="true" signature="411:2655" ph="{...}" />
-            <marker date="1567966509157" expanded="true" signature="451:2653" ph="{...}" />
-            <marker date="1567966509157" expanded="true" signature="595:760" ph="{...}" />
-            <marker date="1567966509157" expanded="true" signature="840:1012" ph="{...}" />
-            <marker date="1567966509157" expanded="true" signature="1106:1323" ph="{...}" />
-            <marker date="1567966509157" expanded="true" signature="1417:2088" ph="{...}" />
-            <marker date="1567966509157" expanded="true" signature="1523:1640" ph="{...}" />
-            <marker date="1567966509157" expanded="true" signature="2152:2406" ph="{...}" />
-            <marker date="1567966509157" expanded="true" signature="2468:2638" ph="{...}" />
+            <marker date="1568056289274" expanded="true" signature="6:176" ph="..." />
+            <marker date="1568056289274" expanded="true" signature="212:2106" ph="{...}" />
+            <marker date="1568056289274" expanded="true" signature="248:2104" ph="{...}" />
+            <marker date="1568056289274" expanded="true" signature="350:748" ph="{...}" />
+            <marker date="1568056289274" expanded="true" signature="874:1448" ph="{...}" />
+            <marker date="1568056289274" expanded="true" signature="1591:2097" ph="{...}" />
           </folding>
         </state>
       </provider>
