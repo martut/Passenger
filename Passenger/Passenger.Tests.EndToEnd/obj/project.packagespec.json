@@ -36,6 +36,10 @@
   "frameworks": {
     "netcoreapp2.2": {
       "dependencies": {
+        "Autofac": {
+          "target": "Package",
+          "version": "[4.9.4, )"
+        },
         "FluentAssertions": {
           "target": "Package",
           "version": "[5.7.0, )"
@@ -72,7 +76,12 @@
         }
       },
       "imports": [
-        "net461"
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
       ],
       "assetTargetFallback": true,
       "warn": true

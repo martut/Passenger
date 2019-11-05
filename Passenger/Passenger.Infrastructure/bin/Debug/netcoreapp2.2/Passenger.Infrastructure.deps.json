@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "fa4ebf89d57484a33a2be911b0e000804307d873"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
@@ -9,11 +9,20 @@
       "Passenger.Infrastructure/1.0.0": {
         "dependencies": {
           "AutoMapper": "9.0.0",
+          "Autofac": "4.9.4",
           "Newtonsoft.Json": "12.0.2",
           "Passenger.Core": "1.0.0"
         },
         "runtime": {
           "Passenger.Infrastructure.dll": {}
+        }
+      },
+      "Autofac/4.9.4": {
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "assemblyVersion": "4.9.4.0",
+            "fileVersion": "4.9.4.0"
+          }
         }
       },
       "AutoMapper/9.0.0": {
@@ -96,10 +105,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Autofac/4.9.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dYiDG4yoV7GDCoOc66d1sqMmg2gwDyomHKgATuMfhFzYxVpWEltToHVHXI3I9vOEvIXE55S4OZPY0ldiZmZtpA==",
+      "path": "autofac/4.9.4",
+      "hashPath": "autofac.4.9.4.nupkg.sha512"
+    },
     "AutoMapper/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xT8V1cEHum51ZKXWeSlS2rT8fCHmLWpBPC+ZTJjQ9CO9j1pB7ZUz+MjNx9PIPQwXLFrkANXvWyg2eKR3x8qvSg==",
+      "sha512": "sha512-xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
       "path": "automapper/9.0.0",
       "hashPath": "automapper.9.0.0.nupkg.sha512"
     },
@@ -113,7 +129,7 @@
     "Newtonsoft.Json/12.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mtweBXPWhp1CMQATtBT7ZfMZrbZBTKfjGwz6Y75NwGjx/GztDaUnfw8GK9KZ2T4fDIqKJyDjc9Rxlw5+G2FcVA==",
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "path": "newtonsoft.json/12.0.2",
       "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
     },

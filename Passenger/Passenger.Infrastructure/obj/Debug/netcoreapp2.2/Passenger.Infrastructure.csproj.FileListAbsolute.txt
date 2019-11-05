@@ -2,7 +2,6 @@
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.csprojAssemblyReference.cache
-/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.csproj.CoreCompileInputs.cache
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.AssemblyInfoInputs.cache
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.AssemblyInfo.cs
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.dll

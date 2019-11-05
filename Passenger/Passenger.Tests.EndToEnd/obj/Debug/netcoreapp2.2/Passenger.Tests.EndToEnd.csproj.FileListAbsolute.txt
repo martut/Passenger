@@ -4,7 +4,6 @@
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.dll
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.pdb
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.csprojAssemblyReference.cache
-/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.csproj.CoreCompileInputs.cache
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.AssemblyInfoInputs.cache
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.AssemblyInfo.cs
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.dll
@@ -20,3 +19,7 @@
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Core.pdb
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.csproj.CopyComplete
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/app.config
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/appsettings.Development.json
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/appsettings.json
+/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Properties/launchSettings.json

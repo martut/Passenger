@@ -2,6 +2,28 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "Autofac/4.9.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "4.9.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll": {}
+        }
+      },
       "AutoMapper/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -3737,6 +3759,8 @@
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
           "AutoMapper": "9.0.0",
+          "Autofac": "4.9.4",
+          "Autofac.Extensions.DependencyInjection": "5.0.1",
           "Microsoft.AspNetCore": "2.2.0",
           "Microsoft.AspNetCore.HttpsPolicy": "2.2.0",
           "Microsoft.AspNetCore.Mvc": "2.2.0",
@@ -3764,6 +3788,7 @@
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
           "AutoMapper": "9.0.0",
+          "Autofac": "4.9.4",
           "Newtonsoft.Json": "12.0.2",
           "Passenger.Core": "1.0.0"
         },
@@ -3777,8 +3802,42 @@
     }
   },
   "libraries": {
+    "Autofac/4.9.4": {
+      "sha512": "dYiDG4yoV7GDCoOc66d1sqMmg2gwDyomHKgATuMfhFzYxVpWEltToHVHXI3I9vOEvIXE55S4OZPY0ldiZmZtpA==",
+      "type": "package",
+      "path": "autofac/4.9.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.4.9.4.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.pdb",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.pdb",
+        "lib/netstandard1.1/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml"
+      ]
+    },
+    "Autofac.Extensions.DependencyInjection/5.0.1": {
+      "sha512": "92/AmuykrdvaLlE8Y4sc4SlX2RrCeClUqddjNi7cAYsOsVD/jq5JXDP1ZhHSBan4P/o7AKjpxjD/MrPTO0DHRw==",
+      "type": "package",
+      "path": "autofac.extensions.dependencyinjection/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.nuspec",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.pdb",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.xml"
+      ]
+    },
     "AutoMapper/9.0.0": {
-      "sha512": "xT8V1cEHum51ZKXWeSlS2rT8fCHmLWpBPC+ZTJjQ9CO9j1pB7ZUz+MjNx9PIPQwXLFrkANXvWyg2eKR3x8qvSg==",
+      "sha512": "xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
       "type": "package",
       "path": "automapper/9.0.0",
       "files": [
@@ -3795,7 +3854,7 @@
       ]
     },
     "Castle.Core/4.4.0": {
-      "sha512": "dibDR/ggOLwpsLKuOZk3BHrq0mDthf+MEH02rb6QHXKb5ZzYml+Y70XaLRiDyDdLbyhsgcBEpaK2mrS13enOmA==",
+      "sha512": "b5rRL5zeaau1y/5hIbI+6mGw3cwun16YjkHZnV9RRT5UyUIFsgLmNXJ0YnIN9p8Hw7K7AbG1q1UclQVU3DinAQ==",
       "type": "package",
       "path": "castle.core/4.4.0",
       "files": [
@@ -3820,7 +3879,7 @@
       ]
     },
     "FluentAssertions/5.7.0": {
-      "sha512": "xgRluG8jVr3+LQHJ12isUiEhWoZypHHU/kHMNbatvFHXa5iFFEzbljoRTn7oDJ4k91wNKdwbxSm8O77mlc0n7A==",
+      "sha512": "UBSa5xvpHi8dhrSAZ8q0VGIly6SEHqIP4SfgmvrVvi7YQUZEE+c9gSTPalANw5x3CwNLuafY9SrCM23GiyK9Qg==",
       "type": "package",
       "path": "fluentassertions/5.7.0",
       "files": [
@@ -4580,7 +4639,7 @@
       ]
     },
     "Microsoft.AspNetCore.TestHost/2.2.0": {
-      "sha512": "7yoAnQ+n1+PxigrY8td9eHULYwEuAuSHraDCYJQYTMRbu0G7XIDU6nzBMStoS/vOtU+eFja6EKuqS5JdASW49w==",
+      "sha512": "qjynDPGtn+5t1IHzFW2VpPoX+tkNVoI3htySJINETsvfGdKshs8keYOpDVpRfx6x7bGoN4G5icL7lKFPmAu/eA==",
       "type": "package",
       "path": "microsoft.aspnetcore.testhost/2.2.0",
       "files": [
@@ -5863,7 +5922,7 @@
       ]
     },
     "Moq/4.12.0": {
-      "sha512": "52OnOpSKKlXfi+ukMOeRJ1Md1bOeloP7L7HkzvWtjkfRBkWmpo3vBGWX4P1wPVJEfgrDTeXCvq8S1vLasXdFJA==",
+      "sha512": "ZppsWLXxVNhOKQIBUejZ2VVmo345WB0YJ6AMA1VuMNplZLTD8mtTxH2bAzQ38aowXpaqPiYt+nhkGroIFFxX9A==",
       "type": "package",
       "path": "moq/4.12.0",
       "files": [
@@ -6006,7 +6065,7 @@
       ]
     },
     "Newtonsoft.Json/12.0.2": {
-      "sha512": "mtweBXPWhp1CMQATtBT7ZfMZrbZBTKfjGwz6Y75NwGjx/GztDaUnfw8GK9KZ2T4fDIqKJyDjc9Rxlw5+G2FcVA==",
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "type": "package",
       "path": "newtonsoft.json/12.0.2",
       "files": [
@@ -6715,7 +6774,7 @@
       ]
     },
     "System.ComponentModel.EventBasedAsync/4.0.11": {
-      "sha512": "EvcCeJf2fcsfOVr+3Vt+2xxi1TJIc8EVq/grEWroowjFsEJc7FUAsyQ95H+CvAElv3lv233SO+ZCo7/ciaQSqQ==",
+      "sha512": "Z7SO6vvQIR84daPE4uhaNdef9CjgjDMGYkas8epUhf0U3WGuaGgZ0Mm4QuNycMdbHUY8KEdZrtgxonkAiJaAlA==",
       "type": "package",
       "path": "system.componentmodel.eventbasedasync/4.0.11",
       "files": [
@@ -6875,7 +6934,7 @@
       ]
     },
     "System.Configuration.ConfigurationManager/4.4.0": {
-      "sha512": "RLYB3YOmdz9dE3zMhBFGv3GF74upGjH0nF0G9lFFRLNLsCEMIpiuQsMGv2qE0qdp1JdheVNO8RIRpUKdokiK+g==",
+      "sha512": "gWwQv/Ug1qWJmHCmN17nAbxJYmQBM/E94QxKLksvUiiKB1Ld3Sc/eK1lgmbSjDFxkQhVuayI/cGFZhpBSodLrg==",
       "type": "package",
       "path": "system.configuration.configurationmanager/4.4.0",
       "files": [
@@ -7066,7 +7125,7 @@
       ]
     },
     "System.Diagnostics.Process/4.1.0": {
-      "sha512": "S2YC+MwpWZ6e7h2lqNce/ubMjD4vf2Ea/uOEncYNH1/fFXaXlKDM9ig/zCE1rR+wwYzE8FXtvj+1Nymh6oZ9bg==",
+      "sha512": "mpVZ5bnlSs3tTeJ6jYyDJEIa6tavhAd88lxq1zbYhkkCu0Pno2+gHXcvZcoygq2d8JxW3gojXqNJMTAshduqZA==",
       "type": "package",
       "path": "system.diagnostics.process/4.1.0",
       "files": [
@@ -7162,7 +7221,7 @@
       ]
     },
     "System.Diagnostics.TextWriterTraceListener/4.0.0": {
-      "sha512": "oRsXCz76GDDMrwjMjH6keR9erFIofhGaIMc2d4NykI4rdBEuUP5ZswYA30LGPdyCK7DV4bMBEJL3nJFyAJoS/g==",
+      "sha512": "w36Dr8yKy8xP150qPANe7Td+/zOI3G62ImRcHDIEW+oUXUuTKZHd4DHmqRx5+x8RXd85v3tXd1uhNTfsr+yxjA==",
       "type": "package",
       "path": "system.diagnostics.textwritertracelistener/4.0.0",
       "files": [
@@ -7257,7 +7316,7 @@
       ]
     },
     "System.Diagnostics.TraceSource/4.3.0": {
-      "sha512": "BlWWL9q/HKM0KBzuOSOqchFga5MqnvkK5mb+IU7f4ecInSyghlswR3ib3nww1ruBmLrtdI5coCBB2H2AltTFyA==",
+      "sha512": "VnYp1NxGx8Ww731y2LJ1vpfb/DKVNKEZ8Jsh5SgQTZREL/YpWRArgh9pI8CDLmgHspZmLL697CaLvH85qQpRiw==",
       "type": "package",
       "path": "system.diagnostics.tracesource/4.3.0",
       "files": [
@@ -8961,7 +9020,7 @@
       ]
     },
     "System.Runtime.Loader/4.0.0": {
-      "sha512": "AGWrywLI2B15/dnLuFnlHWFjXmq1Tl0kjWaKTHbaJ8T9kIxiQ8YGTtiMQc8rUr49l2JjfZa7QY0KKqlyzA7NNg==",
+      "sha512": "4UN78GOVU/mbDFcXkEWtetJT/sJ0yic2gGk1HSlSpWI0TDf421xnrZTDZnwNBapk1GQeYN7U1lTj/aQB1by6ow==",
       "type": "package",
       "path": "system.runtime.loader/4.0.0",
       "files": [
@@ -9466,7 +9525,7 @@
       ]
     },
     "System.Security.Cryptography.ProtectedData/4.4.0": {
-      "sha512": "WwEexvBd+17yfY7fcS+fBGl+HADEfCJuKeDJqBT7D6j6vKwYvfLyGuq2y/MmrKORC6mbYwth7kjinO1mPhTL3g==",
+      "sha512": "cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
       "type": "package",
       "path": "system.security.cryptography.protecteddata/4.4.0",
       "files": [
@@ -10192,7 +10251,7 @@
       ]
     },
     "System.Threading.ThreadPool/4.0.10": {
-      "sha512": "dupLOpVBSXb3G/Ab9utLVbOYxZ+hnq5ExVz6Dk9CBlzXm6Znw1GAIOv5HEjlkECZJz40I8zhhxaJHWVsWO484Q==",
+      "sha512": "IMXgB5Vf/5Qw1kpoVgJMOvUO1l32aC+qC3OaIZjWJOjvcxuxNWOK2ZTWWYXfij22NHxT2j1yWX5vlAeQWld9vA==",
       "type": "package",
       "path": "system.threading.threadpool/4.0.10",
       "files": [
@@ -10572,7 +10631,7 @@
       ]
     },
     "System.Xml.XPath.XmlDocument/4.0.1": {
-      "sha512": "gQQaCNO5FYxD37SNQvE+yZUNfCt/Y+FgCnead3hu37RsUiwy2cxqRDWPv+Ee+6DlOeV47xaSYYZ6GQW4EhoEXQ==",
+      "sha512": "Zm2BdeanuncYs3NhCj4c9e1x3EXFzFBVv2wPEc/Dj4ZbI9R8ecLSR5frAsx4zJCPBtKQreQ7Q/KxJEohJZbfzA==",
       "type": "package",
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "files": [
@@ -10609,7 +10668,7 @@
       ]
     },
     "xunit/2.4.1": {
-      "sha512": "OwBhpez9SRZvEjqic3WVbACu2wsi9u5qi+YpzVg6BTL3R25R/6ytM4UkUTnx+dSZDJ3IUPx+99CX/YXnxrQAWA==",
+      "sha512": "XNR3Yz9QTtec16O0aKcO6+baVNpXmOnPUxDkCY97J+8krUYxPvXT1szYYEUdKk4sB8GOI2YbAjRIOm8ZnXRfzQ==",
       "type": "package",
       "path": "xunit/2.4.1",
       "files": [
@@ -10620,7 +10679,7 @@
       ]
     },
     "xunit.abstractions/2.0.3": {
-      "sha512": "PKJri5f0qEQPFvgY6CZR9XG8JROlWSdC/ZYLkkDQuID++Egn+yWjB+Yf57AZ8U6GRlP7z33uDQ4/r5BZPer2JA==",
+      "sha512": "pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg==",
       "type": "package",
       "path": "xunit.abstractions/2.0.3",
       "files": [
@@ -10637,7 +10696,7 @@
       ]
     },
     "xunit.analyzers/0.10.0": {
-      "sha512": "Uw6EqkOmt0IystUtzkU4U8ixCEz+piqgczyoPT00RwPDsWHtWwzedjsBQTS6P1h2+uwDF6w5UpYt5/SSE7eexQ==",
+      "sha512": "4/IDFCJfIeg6bix9apmUtIMwvOsiwqdEexeO/R2D4GReIGPLIRODTpId/l4LRSrAJk9lEO3Zx1H0Zx6uohJDNg==",
       "type": "package",
       "path": "xunit.analyzers/0.10.0",
       "hasTools": true,
@@ -10652,7 +10711,7 @@
       ]
     },
     "xunit.assert/2.4.1": {
-      "sha512": "xWgCZQSBeM9C7Ak+VuzGsQr7K5ODLVsXK3g2sDD38/3Ljom2IbWJPudG8+IsspgvfpGh0g9Oe5vLc8U+izjieQ==",
+      "sha512": "O/Oe0BS5RmSsM+LQOb041TzuPo5MdH2Rov+qXGS37X+KFG1Hxz7kopYklM5+1Y+tRGeXrOx5+Xne1RuqLFQoyQ==",
       "type": "package",
       "path": "xunit.assert/2.4.1",
       "files": [
@@ -10665,7 +10724,7 @@
       ]
     },
     "xunit.core/2.4.1": {
-      "sha512": "8taMlAQy9qQ7Tbiqr2TAwGkU+X0sckQ+96j7R9OX/Ut1gmHEa4QYIrI8c15j3iKTj3XzyQMVohkTMWa80BRf6w==",
+      "sha512": "Zsj5OMU6JasNGERXZy8s72+pcheG6Q15atS5XpZXqAtULuyQiQ6XNnUsp1gyfC6WgqScqMvySiEHmHcOG6Eg0Q==",
       "type": "package",
       "path": "xunit.core/2.4.1",
       "files": [
@@ -10680,7 +10739,7 @@
       ]
     },
     "xunit.extensibility.core/2.4.1": {
-      "sha512": "qkdxGfxdsAurEFsr8z6LfoBRVb4Vcbeyk1wF+MRrObruwOtl7O+ihQUEHX8fnZnlUFsY6kR+9tcweomLsocR1A==",
+      "sha512": "yKZKm/8QNZnBnGZFD9SewkllHBiK0DThybQD/G4PiAmQjKtEZyHi6ET70QPU9KtSMJGRYS6Syk7EyR2EVDU4Kg==",
       "type": "package",
       "path": "xunit.extensibility.core/2.4.1",
       "files": [
@@ -10698,7 +10757,7 @@
       ]
     },
     "xunit.extensibility.execution/2.4.1": {
-      "sha512": "gc8TxVPew3+Hy6qJTs70JHirtSt5ky380gxC8QF+VmWOs6EdWGlo9xm3URkm+gPbE9roVVfnrw5AuqFNr4R52Q==",
+      "sha512": "7e/1jqBpcb7frLkB6XDrHCGXAbKN4Rtdb88epYxCSRQuZDRW8UtTfdTEVpdTl8s4T56e07hOBVd4G0OdCxIY2A==",
       "type": "package",
       "path": "xunit.extensibility.execution/2.4.1",
       "files": [
@@ -10713,7 +10772,7 @@
       ]
     },
     "xunit.runner.visualstudio/2.4.1": {
-      "sha512": "70iTd44VD/UcP5kX7Bm6DjNayi9pquI7NhnU7Nl46qWVQBDHVqRrFDXgNrGP936YxefJxzC+2bp1yQUwPJIEvg==",
+      "sha512": "mBXd1lp1TQr4to2nFv+c4Tf+RnPoQPKglzwLdbdirOUxRaJsCUNDUx2y7E6j9ajgISlTTp1CydFBZCRCUIrwDg==",
       "type": "package",
       "path": "xunit.runner.visualstudio/2.4.1",
       "files": [
@@ -10760,6 +10819,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Autofac >= 4.9.4",
       "FluentAssertions >= 5.7.0",
       "Microsoft.AspNetCore.TestHost >= 2.2.0",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
@@ -10818,6 +10878,10 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[4.9.4, )"
+          },
           "FluentAssertions": {
             "target": "Package",
             "version": "[5.7.0, )"
@@ -10854,10 +10918,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

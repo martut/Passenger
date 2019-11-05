@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Passenger.Infrastructure.Commands;
 using Passenger.Infrastructure.Commands.Users;
 using Passenger.Infrastructure.Services;
 
@@ -7,13 +8,13 @@ namespace Passenger.Api.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class UsersController : ControllerBase
+    public class UsersController : ApiControllerBase
     {
         private readonly IUserService _userService;
 
-        public UsersController(IUserService userService)
+        public UsersController(IUserService userService, ICommandDispatcher commandDispatcher) : base(commandDispatcher)
         {
-            _userService = userService;
+            _userService = userService; ;
         }
 
 
@@ -28,10 +29,12 @@ namespace Passenger.Api.Controllers
 
 
         [HttpPost("")]
-        public async Task<IActionResult> Post([FromBody] CreateUser request)
+        public async Task<IActionResult> Post([FromBody] CreateUser command)
         {
-            await _userService.RegisterAsync(request.Email, request.Username, request.Password);
-            return Created($"users/{request.Email}", new object());
+            await CommandDispatcher.DispatchAsync(command);
+            
+            return Created($"users/{command.Email}", new object());
         }
+        
     }
 }

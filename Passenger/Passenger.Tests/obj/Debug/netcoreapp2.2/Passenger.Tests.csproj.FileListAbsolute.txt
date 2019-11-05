@@ -4,7 +4,6 @@
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.dll
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.pdb
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.csprojAssemblyReference.cache
-/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.csproj.CoreCompileInputs.cache
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.AssemblyInfoInputs.cache
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.AssemblyInfo.cs
 /Users/martut/RiderProjects/Passenger/Passenger/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.dll

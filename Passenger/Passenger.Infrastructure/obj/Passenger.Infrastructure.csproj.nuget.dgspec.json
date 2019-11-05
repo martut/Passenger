@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Infrastructure/Passenger.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Core/Passenger.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Core/Passenger.Core.csproj",
+        "projectName": "Passenger.Core",
+        "projectPath": "/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Core/Passenger.Core.csproj",
+        "packagesPath": "/Users/martut/.nuget/packages/",
+        "outputPath": "/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/martut/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Infrastructure/Passenger.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Infrastructure/Passenger.Infrastructure.csproj",
+        "projectName": "Passenger.Infrastructure",
+        "projectPath": "/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Infrastructure/Passenger.Infrastructure.csproj",
+        "packagesPath": "/Users/martut/.nuget/packages/",
+        "outputPath": "/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/martut/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Core/Passenger.Core.csproj": {
+                "projectPath": "/Users/martut/RiderProjects/Passenger/Passenger/Passenger.Core/Passenger.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
