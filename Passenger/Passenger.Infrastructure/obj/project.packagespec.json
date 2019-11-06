@@ -41,6 +41,14 @@
           "target": "Package",
           "version": "[4.9.4, )"
         },
+        "Microsoft.Extensions.Configuration": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Microsoft.Extensions.Configuration.Binder": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
           "target": "Package",

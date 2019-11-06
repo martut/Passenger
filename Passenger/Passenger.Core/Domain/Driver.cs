@@ -9,7 +9,7 @@ namespace Passenger.Core.Domain
         public Vehicle Vehicle { get; protected set; }
         public IEquatable<Route> Routes { get; protected set; }
         public IEnumerable<DailyRoute> DailyRoutes { get; protected set; }
-
+        public DateTime UpdatedAt { get; set; }
 
         protected Driver()
         {

@@ -13,6 +13,7 @@ namespace Passenger.Core.Domain
         public string Salt { get; protected set; }
         public string Username { get; protected set; }
         public string FullName { get; protected set; }
+        public string Role { get; set; }
         public DateTime CreatedAt { get; protected set; }
         public DateTime UpdatedAt { get; protected set; }
         
@@ -23,12 +24,13 @@ namespace Passenger.Core.Domain
         }
 
         public User(string email, string username,
-            string password, string salt)
+            string password, string role, string salt)
         {
             Id = Guid.NewGuid();
             Email = email.ToLowerInvariant();
             Username = username;
             Password = password;
+            Role = role;
             Salt = salt;
             CreatedAt = DateTime.UtcNow;
             UpdatedAt = DateTime.UtcNow;
@@ -39,6 +41,11 @@ namespace Passenger.Core.Domain
             if (NameRegex.IsMatch(username))
             {
                 throw new Exception($"Username is invalid.");
+            }
+
+            if (String.IsNullOrEmpty(username))
+            {
+                throw new Exception($"Username can not be empty.");
             }
 
             Username = username.ToLowerInvariant();
@@ -61,6 +68,16 @@ namespace Passenger.Core.Domain
             UpdatedAt = DateTime.UtcNow;
         }
 
+        public void SetRole(string role)
+        {
+            if (Role == role)
+            {
+                return;
+            }
+
+            Role = role;
+            UpdatedAt = DateTime.UtcNow;
+        }
 
         public void SetPassword(string password)
         {
