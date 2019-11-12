@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Passenger.Core.Repositories;
+using Passenger.Infrastructure.IoC;
 using Passenger.Infrastructure.IoC.Modules;
 using Passenger.Infrastructure.Mappers;
 using Passenger.Infrastructure.Repositories;
@@ -34,15 +35,11 @@ namespace Passenger.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IUserRepository, InMemoryUserRepository>();
-            services.AddScoped<IUserService, UserService>();
-            services.AddSingleton(AutoMapperConfig.Initialize());
+            
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-
             var builder = new ContainerBuilder();
             builder.Populate(services);
-            builder.RegisterModule<CommandModule>();
-            builder.RegisterModule(new SettingsModule(Configuration));
+            builder.RegisterModule(new ContainerModule(Configuration));
             ApplicationContainer = builder.Build();
             
             return new AutofacServiceProvider(ApplicationContainer);

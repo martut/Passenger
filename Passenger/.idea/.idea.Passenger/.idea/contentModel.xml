@@ -16,6 +16,7 @@
         <e p="Controllers" t="Include">
           <e p="AccountController.cs" t="Include" />
           <e p="ApiControllerBase.cs" t="Include" />
+          <e p="DriversController.cs" t="Include" />
           <e p="UsersController.cs" t="Include" />
           <e p="ValuesController.cs" t="Include" />
         </e>
@@ -56,6 +57,7 @@
         <e p="Passenger.Core.csproj" t="IncludeRecursive" />
         <e p="Repositories" t="Include">
           <e p="IDriverRepository.cs" t="Include" />
+          <e p="IRepository.cs" t="Include" />
           <e p="IUserRepository.cs" t="Include" />
         </e>
       </e>
@@ -63,6 +65,9 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Commands" t="Include">
           <e p="CommandDispatcher.cs" t="Include" />
+          <e p="Drivers" t="Include">
+            <e p="CreateDriver.cs" t="Include" />
+          </e>
           <e p="ICommand.cs" t="Include" />
           <e p="ICommandDispatcher.cs" t="Include" />
           <e p="ICommandHandler.cs" t="Include" />
@@ -79,14 +84,20 @@
           <e p="SettingsExtensions.cs" t="Include" />
         </e>
         <e p="Handlers" t="Include">
+          <e p="Drivers" t="Include">
+            <e p="CreateDriverHandler.cs" t="Include" />
+          </e>
           <e p="Users" t="Include">
             <e p="ChangeUserPasswordHandler.cs" t="Include" />
             <e p="CreateUserHendler.cs" t="Include" />
           </e>
         </e>
         <e p="IoC" t="Include">
+          <e p="ContainerModule.cs" t="Include" />
           <e p="Modules" t="Include">
             <e p="CommandModule.cs" t="Include" />
+            <e p="RepositoryModule.cs" t="Include" />
+            <e p="ServiceModule.cs" t="Include" />
             <e p="SettingsModule.cs" t="Include" />
           </e>
         </e>
@@ -108,6 +119,7 @@
         <e p="Services" t="Include">
           <e p="DriverService.cs" t="Include" />
           <e p="IDriverService.cs" t="Include" />
+          <e p="IService.cs" t="Include" />
           <e p="IUserService.cs" t="Include" />
           <e p="UserService.cs" t="Include" />
         </e>

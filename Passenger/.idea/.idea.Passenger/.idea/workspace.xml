@@ -25,92 +25,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cead7fed-e119-41fa-9f02-d499599f7877" name="Default Changelist" comment="Async all">
-      <change afterPath="$PROJECT_DIR$/Passenger.Core/Domain/Roles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Extensions/SettingsExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Passenger.Infrastructure/IoC/Modules/SettingsModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Settings/GeneralSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Api/Controllers/DriversController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Core/Repositories/IRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Commands/Drivers/CreateDriver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Handlers/Drivers/CreateDriverHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Infrastructure/IoC/ContainerModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Infrastructure/IoC/Modules/RepositoryModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Infrastructure/IoC/Modules/ServiceModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Services/IService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Passenger/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Passenger/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Passenger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Passenger/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Api.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/bin/Debug/netcoreapp2.2/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Debug/netcoreapp2.2/Passenger.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Passenger.Api.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Passenger.Api.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Passenger.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Passenger.Api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/Passenger.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/Passenger.Api.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Api/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Core/Domain/DailyRoute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/Domain/DailyRoute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Core/Domain/Driver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/Domain/Driver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Core/Domain/PassengerNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/Domain/PassengerNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Core/Domain/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/Domain/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Core/Repositories/IDriverRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/Repositories/IDriverRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Core/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/Repositories/IUserRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Core/bin/Debug/netcoreapp2.2/Passenger.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/bin/Debug/netcoreapp2.2/Passenger.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Core/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/Debug/netcoreapp2.2/Passenger.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/Passenger.Core.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/Passenger.Core.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/Passenger.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/Passenger.Core.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/Passenger.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/Passenger.Core.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Core/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/Commands/Users/CreateUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Commands/Users/CreateUser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/Handlers/Users/CreateUserHendler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Handlers/Users/CreateUserHendler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/Passenger.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Passenger.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/Repositories/InMemoryUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Repositories/InMemoryUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/Services/IDriverService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Services/IDriverService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/Services/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Services/IUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/Services/UserService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Passenger.Infrastructure.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Passenger.Infrastructure.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Passenger.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Passenger.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Passenger.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/Passenger.Infrastructure.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Infrastructure/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Api.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/bin/Debug/netcoreapp2.2/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Debug/netcoreapp2.2/Passenger.Tests.EndToEnd.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Passenger.Tests.EndToEnd.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Passenger.Tests.EndToEnd.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Passenger.Tests.EndToEnd.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Passenger.Tests.EndToEnd.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Passenger.Tests.EndToEnd.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/Passenger.Tests.EndToEnd.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests.EndToEnd/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/Services/UserServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/Services/UserServiceTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/bin/Debug/netcoreapp2.2/Passenger.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Debug/netcoreapp2.2/Passenger.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Passenger.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Passenger.Tests.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Passenger.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Passenger.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/Passenger.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/Passenger.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passenger.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Passenger.Tests/obj/project.assets.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,19 +87,8 @@
     <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/DTO/DriverDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Api/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/DTO/UserDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Roles.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Node.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Driver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Vehicle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Api/app.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Api/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/PassengerNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/DailyRoute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/User.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Passenger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Route.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Core/Repositories/IDriverRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Core/Repositories/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Mappers/AutoMapperConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/IoC/Modules/CommandModule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Commands/ICommand.cs" root0="FORCE_HIGHLIGHTING" />
@@ -146,47 +97,54 @@
     <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Services/IUserService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Services/IDriverService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Services/DriverService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Handlers/Drivers/CreateDriverHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Repositories/InMemoryDriverRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Repositories/InMemoryUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Extensions/SettingsExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Settings/GeneralSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/IoC/Modules/SettingsModule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Commands/Drivers/CreateDriver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Api/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Api/Controllers/ApiControllerBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Tests/Services/UserServiceTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Commands/ICommandHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Commands/ICommandDispatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Api/Controllers/DriversController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Commands/Users/ChangeUserPassword.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Tests.EndToEnd/Controllers/UsersControllerTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Handlers/Users/ChangeUserPasswordHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Handlers/Users/CreateUserHendler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Api/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Tests.EndToEnd/Controllers/AccountControllerTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Commands/CommandDispatcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Passenger.Tests.EndToEnd/Controllers/ControllerTestsBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Roles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Node.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Driver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Vehicle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/PassengerNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/DailyRoute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Passenger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Domain/Route.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Repositories/IDriverRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Repositories/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Extensions/SettingsExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Settings/GeneralSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/IoC/Modules/SettingsModule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/IoC/Modules/ServiceModule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Services/IService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Tests/Services/UserServiceTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Commands/ICommandHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Core/Repositories/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Commands/ICommandDispatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Handlers/Users/CreateUserHendler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/IoC/Modules/RepositoryModule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/Commands/CommandDispatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Passenger.Infrastructure/IoC/ContainerModule.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Passenger.Infrastructure/Class1.cs" />
-        <option value="$PROJECT_DIR$/Passenger.Tests/Passenger.Tests.csproj" />
-        <option value="$PROJECT_DIR$/Passenger.Core/Domain/Route.cs" />
-        <option value="$PROJECT_DIR$/Passenger.Core/Domain/Class1.cs" />
-        <option value="$PROJECT_DIR$/Passenger.Core/Domain/Passenger.cs" />
-        <option value="$PROJECT_DIR$/Passenger.Infrastructure/Repositories/UserRepository.cs" />
-        <option value="$PROJECT_DIR$/Passenger.Infrastructure/DTO/UserDto.cs" />
-        <option value="$PROJECT_DIR$/Passenger.Infrastructure/DTO/DriverDto.cs" />
-        <option value="$PROJECT_DIR$/Passenger.Infrastructure/Mappers/AutoMapperConfig.cs" />
         <option value="$PROJECT_DIR$/Passenger.Infrastructure/Commands/ICommand.cs" />
         <option value="restClient/response13.txt" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http" />
         <option value="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" />
-        <option value="$PROJECT_DIR$/Passenger.Core/Repositories/IDriverRepository.cs" />
-        <option value="$PROJECT_DIR$/Passenger.Core/Repositories/IUserRepository.cs" />
-        <option value="$PROJECT_DIR$/Passenger.Infrastructure/Services/IDriverService.cs" />
         <option value="$PROJECT_DIR$/Passenger.Infrastructure/Repositories/InMemoryDriverRepository.cs" />
         <option value="$PROJECT_DIR$/Passenger.Infrastructure/Services/DriverService.cs" />
         <option value="$PROJECT_DIR$/Passenger.Core/Domain/Node.cs" />
@@ -212,14 +170,26 @@
         <option value="$PROJECT_DIR$/Passenger.Infrastructure/Handlers/Users/CreateUserHendler.cs" />
         <option value="$PROJECT_DIR$/Passenger.Infrastructure/Repositories/InMemoryUserRepository.cs" />
         <option value="$PROJECT_DIR$/Passenger.Infrastructure/Services/UserService.cs" />
-        <option value="$PROJECT_DIR$/Passenger.Infrastructure/Services/IUserService.cs" />
         <option value="$PROJECT_DIR$/Passenger.Tests/Services/UserServiceTests.cs" />
         <option value="$PROJECT_DIR$/Passenger.Infrastructure/Extensions/SettingsExtensions.cs" />
         <option value="$PROJECT_DIR$/Passenger.Api/appsettings.Development.json" />
         <option value="$PROJECT_DIR$/Passenger.Infrastructure/Settings/GeneralSettings.cs" />
         <option value="$PROJECT_DIR$/Passenger.Infrastructure/IoC/Modules/SettingsModule.cs" />
-        <option value="$PROJECT_DIR$/Passenger.Api/Startup.cs" />
         <option value="$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Core/Repositories/IRepository.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Core/Repositories/IDriverRepository.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Core/Repositories/IUserRepository.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Infrastructure/Services/IService.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Infrastructure/Services/IDriverService.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Infrastructure/Services/IUserService.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Infrastructure/IoC/Modules/RepositoryModule.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Infrastructure/IoC/Modules/ServiceModule.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Infrastructure/IoC/ContainerModule.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Api/Startup.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Api/Controllers/DriversController.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Infrastructure/Commands/Drivers.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Infrastructure/Commands/Drivers/CreateDriver.cs" />
+        <option value="$PROJECT_DIR$/Passenger.Infrastructure/Handlers/Drivers/CreateDriverHandler.cs" />
       </list>
     </option>
   </component>
@@ -681,7 +651,8 @@
       <workItem from="1567771293026" duration="5098000" />
       <workItem from="1567779858688" duration="2303000" />
       <workItem from="1572978264662" duration="4481000" />
-      <workItem from="1573060276738" duration="3533000" />
+      <workItem from="1573060276738" duration="4183000" />
+      <workItem from="1573582158177" duration="2132000" />
     </task>
     <task id="LOCAL-00001" summary="First Models, UserService, UserController">
       <created>1566747835305</created>
@@ -718,7 +689,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572982491385</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="application settings">
+      <created>1573063932036</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573063932036</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -760,7 +738,8 @@
     <MESSAGE value="Validation and Driver service added" />
     <MESSAGE value="Async all" />
     <MESSAGE value="handling and dispatching the commands." />
-    <option name="LAST_COMMIT_MESSAGE" value="handling and dispatching the commands." />
+    <MESSAGE value="application settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="application settings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -769,19 +748,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs</url>
-          <line>17</line>
-          <properties documentPath="$PROJECT_DIR$/Passenger.Api/Controllers/UsersController.cs" initialLine="17">
-            <startOffsets>
-              <option value="600" />
-            </startOffsets>
-            <endOffsets>
-              <option value="627" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
